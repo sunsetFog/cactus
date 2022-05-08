@@ -8,6 +8,8 @@ import store from './store'
 Vue.prototype.$store = store
 
 
+import http from './utils/http'
+Vue.prototype.$http = http
 
 App.mpType = 'app'
 
