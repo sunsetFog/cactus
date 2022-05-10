@@ -24,7 +24,7 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8",
 		"usingComponents": {// 引入全局组件
-			"van-button": "/wxcomponents/vant/button/index"
+			// "van-button": "/wxcomponents/vant/button/index"
 		}
 	},
 	"tabBar": {
@@ -47,5 +47,8 @@
 			"selectedIconPath": "static/picture/tabBar/user-active.png",
 			"text": "我的"
 		}]
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
 	}
 }

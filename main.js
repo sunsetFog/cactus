@@ -7,6 +7,9 @@ Vue.config.productionTip = false
 import store from './store'
 Vue.prototype.$store = store
 
+import uView from 'uview-ui';
+Vue.use(uView);
+
 
 import http from './utils/http'
 Vue.prototype.$http = http

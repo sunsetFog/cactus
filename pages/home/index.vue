@@ -59,7 +59,6 @@ export default {
                 this._videoContextList.push(uni.createVideoContext('video' + i, this));
             }
 			this._videoDataIndex = 0;
-			this.toPlay();
         },
         onSwiperChange(value) {
 			console.log('--改变分页--', value);

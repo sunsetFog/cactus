@@ -1,11 +1,13 @@
 <template>
 	<view class="content">
-        <van-button type="primary">主要按钮</van-button>
+		<u-button text="月落">画画</u-button>
 	</view>
 </template>
 
 <script>
+// import uButton from "uView-ui/components/u-button/u-button.vue";
 export default {
+	// components: { uButton },
 	data() {
 		return {
 			title: 'Hello'

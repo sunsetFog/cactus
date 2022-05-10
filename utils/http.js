@@ -13,6 +13,15 @@ const config = {
     sslVerify: true
 }
 
+// 获取token缓存
+uni.getStorage({
+	key: 'token',
+	success: function (res) {
+        console.log(res.data);
+        config.header.token = res.data
+	}
+});
+
 
 const $http = function(options = {}) {
     let url = config.baseUrl + options.url || ''
